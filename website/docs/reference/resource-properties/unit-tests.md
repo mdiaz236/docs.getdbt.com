@@ -52,7 +52,7 @@ unit_tests:
     overrides: # optional: configuration for the dbt execution environment
       macros:
         is_incremental: true | false
-        dbt_utils.current_timestamp: <string>
+        dbt.current_timestamp: <string>
         # ... any other jinja function from https://docs.getdbt.com/reference/dbt-jinja-functions
         # ... any other context property
       vars: {dictionary}
